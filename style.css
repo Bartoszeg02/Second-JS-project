@@ -1,0 +1,73 @@
+body {
+  width: 100%;
+  background-image: url("grafika/grass.png");
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden; }
+
+.age-round {
+  position: relative;
+  display: inline-block;
+  margin-top: -2.5px;
+  z-index: 2;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 13px;
+  font-style: initial;
+  align-content: center;
+  margin-left: 50%; }
+
+.upper_menu {
+  background-image: url("./grafika/pasekG.png");
+  height: 100px;
+  width: 100%;
+  background-repeat-y: no-repeat; }
+  .upper_menu .resources {
+    width: 38%;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 27px; }
+    .upper_menu .resources .wood, .upper_menu .resources .food, .upper_menu .resources .gold, .upper_menu .resources .stone, .upper_menu .resources .peasants {
+      position: relative; }
+      .upper_menu .resources .wood::before, .upper_menu .resources .food::before, .upper_menu .resources .gold::before, .upper_menu .resources .stone::before, .upper_menu .resources .peasants::before {
+        content: "";
+        width: 31px;
+        height: 21px;
+        position: absolute;
+        left: -35px;
+        top: -1.5px; }
+    .upper_menu .resources .wood::before {
+      background-image: url("./grafika/drewno.png"); }
+    .upper_menu .resources .food::before {
+      background-image: url("./grafika/jedzenie.png"); }
+    .upper_menu .resources .gold::before {
+      background-image: url("./grafika/zloto.png"); }
+    .upper_menu .resources .stone::before {
+      background-image: url("./grafika/kamien.png"); }
+    .upper_menu .resources .peasants::before {
+      background-image: url("./grafika/chlopi.png"); }
+  .upper_menu .age_and_round {
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 27px;
+    justify-content: center; }
+
+.bottom_menu {
+  background-image: url("./grafika/pasekD.png");
+  width: 100%;
+  height: 177px;
+  background-repeat-y: no-repeat; }
+
+.Werczi {
+  width: 40%;
+  display: inline-flex;
+  justify-content: center;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */

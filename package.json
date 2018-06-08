@@ -1,0 +1,23 @@
+{
+  "name": "js-projekt2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browserify": "~6.2.0",
+    "gulp": "~3.8.9",
+    "gulp-livereload": "~2.1.1",
+    "gulp-util": "~3.0.1",
+    "source": "0.0.3",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp-sass": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
